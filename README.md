@@ -6,4 +6,4 @@ https://react-js-comment-gen.vercel.app/
 <br />
 
 ## Screenshot
-![screenshot](screenshot.png)
+![screenshot](Screenshot.png)
