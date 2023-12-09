@@ -1,0 +1,15 @@
+:root {
+    --background-page: rgb(20, 20, 20);
+    --background-content: rgb(49, 47, 48);
+    --background-posts: rgb(23, 23, 23);
+    --text-white: rgb(235, 241, 237);
+    --text-post-box: rgb(196, 202, 198);
+    --border-sidebar: rgb(50, 146, 49);
+  }
+
+body{
+    background: var(--background-page);
+}
+
+
+

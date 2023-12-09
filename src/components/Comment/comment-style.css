@@ -1,0 +1,100 @@
+.comment {
+  padding: 3rem 3rem;
+  border-radius: 8px;
+  background: var(--background-content);
+}
+
+.comment_image_container img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 8px;
+  border: 2px solid var(--border-sidebar);
+}
+
+.comment_text_container {
+  margin-left: 0.5rem;
+}
+.comment_text_container p {
+  margin: 0.5rem;
+}
+
+.comment_text_container p,
+.comment_text_bottom_container p,
+.comment_feedback_section p {
+  font-size: 1rem;
+  color: var(--text-white);
+}
+
+.comment_feedback_section {
+  margin-bottom: 4rem;
+}
+
+.comment_text_container p:first-of-type,
+.comment_feedback_section p:first-of-type {
+  font-weight: bold;
+}
+
+.comment_feedback_section p:first-of-type {
+  margin-bottom: 1.4rem;
+}
+
+.comment_text_container p:last-of-type {
+  color: rgb(222, 219, 219);
+}
+
+.comment_image_container,
+.comment_text_container {
+  display: inline-block;
+}
+
+.comment_text_bottom_container {
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgb(70, 67, 67);
+}
+
+.comment_text_bottom_container a,
+.comment_text_bottom_container p:last-of-type {
+  color: var(--border-sidebar);
+}
+
+.comment_text_bottom_container p {
+  line-height: 1.6rem;
+}
+
+.comment_feedback_section button {
+  display: block;
+  margin: 15px 0;
+}
+
+.comment_feedback_section textarea {
+  width: 100%;
+  height: 120px;
+  border-radius: 6px;
+  border: none;
+  background-color: var(--background-page);
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--text-white);
+  resize: none;
+  outline: none;
+  overflow: auto;
+  padding: 5px 8px;
+}
+
+.comment_feedback_section button {
+  width: 11rem;
+  height: 3.2rem;
+  border: 2px solid var(--border-sidebar);
+  border-radius: 8px;
+  background: var(--background-content);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--border-sidebar);
+}
+
+.comment_feedback_section button:hover {
+  background: var(--border-sidebar);
+  color: var(--text-white);
+  cursor: pointer;
+}

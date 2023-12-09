@@ -1,0 +1,47 @@
+@media(min-width: 1025px){
+    #ssw-fave-page-side-bar{
+        margin: 0px 90px !important;
+    }
+}
+#ssw-fave-page-side-bar .fave-page-unfave{
+    color: #f8caca !important;
+}
+ 
+.ssw-fave-list-container .ssw-fave-item{
+    border: none !important;
+}  
+ #ssw-fave-page-side-bar .ssw-fave-product-avatar {
+    background-size: cover !important;
+}
+ 
+#ssw-fave-page-side-bar .ssw-fave-product-title{
+    height: auto !important;
+    font-family: Soleil !important;
+    white-space: normal !important;
+}  
+.ssw-fave-product-info .ssw-fave-product-price {
+    color: #272727;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.ssw-fave-product-price del {
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}  
+.ssw-fave-product-actions {
+    margin-top: 12px !important;
+}
+#ssw-fave-page-side-bar-header #ssw-fave-create-list{
+    font-size: 13px;
+    width: auto;
+    border-radius: 0;
+    font-weight: 400;
+}
+.ssw-faves-share-bar .share-faves button:hover{
+    background-color: #f8caca !important;
+    border-color: #f8caca !important;
+}
+#ssw-fave-page-side-bar .ssw-fave-list-header {
+    border-top: 1px solid #f2f2f2 !important;
+}
